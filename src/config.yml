@@ -1,0 +1,48 @@
+recipes:
+   custom_stone_button_recipe:
+      shape: [ # shape must be rectangular
+         "S"
+      ]
+      ingredients:
+         S: COBBLESTONE # material list found in materials.txt
+      result:
+         material: STONE
+         amount: 1
+         data: 0 # effectively the same as /give @s minecraft:stone_button 1 0
+   custom_grass_block_recipe:
+      shape: [
+         "GG",
+         "DD"
+      ]
+      ingredients:
+         G: SEEDS
+         D: DIRT
+      result:
+         material: GRASS
+         # amount: 1 # default value is 1, there's no need to explicitly set it
+         # data: 0 # default value is 0, there's no need to explcitly set it
+         # damage: 0 # default value is 0
+
+smeltingrecipes:
+   custom_cobblestone_recipe:
+      source: STONE
+      result: # same format as the one in crafting recipes
+         material: COBBLESTONE
+         amount: 4 # optional. default: 1
+      experience: 5 # experience given when the item is smelted. Ignored in 1.8.x. Optional
+      cookingtime: 10 # time needed to smelt the item. Ignored in legacy versions (1.13 and below). Optional
+
+debug: false # set to true if you want to see debug information
+
+# Material list:
+# 1.8.x: https://helpch.at/docs/1.8/org/bukkit/Material.html#enum_constant_summary
+# 1.9.x: https://helpch.at/docs/1.9/org/bukkit/Material.html#enum_constant_summary
+# 1.10.x: https://helpch.at/docs/1.10/org/bukkit/Material.html#enum_constant_summary
+# 1.11.x: https://helpch.at/docs/1.11/org/bukkit/Material.html#enum_constant_summary
+# 1.12.x: https://helpch.at/docs/1.12/org/bukkit/Material.html#enum.constant.summary
+# 1.13.x: https://helpch.at/docs/1.13/org/bukkit/Material.html#enum.constant.summary
+# 1.14.x: https://helpch.at/docs/1.14/org/bukkit/Material.html#enum.constant.summary
+# 1.15.x: https://helpch.at/docs/1.15/org/bukkit/Material.html#enum.constant.summary
+# 1.16.x: https://helpch.at/docs/1.16.1/org/bukkit/Material.html#enum.constant.summary
+# 1.17.x: https://helpch.at/docs/1.17/org/bukkit/Material.html#enum.constant.summary
+# 1.18.x: https://helpch.at/docs/1.18/org/bukkit/Material.html#enum-constant-summary

@@ -1,0 +1,20 @@
+name: EZRecipes
+description: A plugin that allows you to add custom recipes! This plugin acts as an API for other plugins
+version: 1.0.0
+author: Erdi__
+main: com.erdi.ezrecipes.plugin.EZRecipes
+
+commands:
+   ezrecipes:
+      description: EZ Recipes' main command
+      permission: ezrecipes.command.ezrecipes
+      usage: /<command> <reload>
+
+permissions:
+   ezrecipes.command.ezrecipes:
+      description: Permission allow use of the main EZ Recipes command
+      default: op
+      
+   ezrecipes.reload:
+      description: Permission to reload EZ Recipes through /ezrecipes reload
+      default: op

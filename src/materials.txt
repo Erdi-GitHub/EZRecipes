@@ -1,0 +1,34 @@
+Material list:
+	
+	1.8.x:
+		https://helpch.at/docs/1.8/org/bukkit/Material.html#enum_constant_summary
+		
+	1.9.x:
+		https://helpch.at/docs/1.9/org/bukkit/Material.html#enum_constant_summary
+		
+	1.10.x:
+		https://helpch.at/docs/1.10/org/bukkit/Material.html#enum_constant_summary
+		
+	1.11.x:
+		https://helpch.at/docs/1.11/org/bukkit/Material.html#enum_constant_summary
+		
+	1.12.x:
+		https://helpch.at/docs/1.12/org/bukkit/Material.html#enum.constant.summary
+		
+	1.13.x:
+		https://helpch.at/docs/1.13/org/bukkit/Material.html#enum.constant.summary
+		
+	1.14.x:
+		https://helpch.at/docs/1.14/org/bukkit/Material.html#enum.constant.summary
+		
+	1.15.x:
+		https://helpch.at/docs/1.15/org/bukkit/Material.html#enum.constant.summary
+		
+	1.16.x:
+		https://helpch.at/docs/1.16.1/org/bukkit/Material.html#enum.constant.summary
+		
+	1.17.x:
+		https://helpch.at/docs/1.17/org/bukkit/Material.html#enum.constant.summary
+		
+	1.18.x:
+		https://helpch.at/docs/1.18/org/bukkit/Material.html#enum-constant-summary
